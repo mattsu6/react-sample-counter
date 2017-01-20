@@ -14,7 +14,7 @@ var WordCountBox = React.createClass({
       <div className="wordCountBox">
         <h1>Hello, React!</h1>
         <textarea rows="8" cols="80" placeholder="Type something..." autoFocus="true" onChange={this.handleTextChange}>
-          {this.state.text}
+          {this.text}
         </textarea>
         <p>Count: {this.state.text.length}</p>
       </div>
